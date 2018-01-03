@@ -1,0 +1,24 @@
+/* Mobile Theme CSS Documents 
+
+Author: DivTag Templates Ltd
+Theme: Navigation Design "B"
+Last Updated: April 11, 2015
+Version: 1.0
+Screen Sizes: 1024, 768, 736, 667, 600, 568, 414, 384, 375, 320
+
+----------------------------------------------------------------- */
+@media all and (max-width: 1024px) {	
+	/* Logo */
+	.wsite-logo a img { max-width: 90% !important;}
+	#wsite-title {font-size: 26px !important; line-height: 110% !important;}
+}
+
+@media all and (max-width: 767px) {
+	/* Nav */
+	#navigation {display: none !important;}		
+	#custom-responsive-nav > button {display: inline-block !important;}
+	
+	/* Logo */
+	#logo{text-align: center !important;}
+	.wsite-logo a img {width: auto !important;max-width: 100% !important;}
+}

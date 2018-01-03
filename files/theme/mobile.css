@@ -1,0 +1,18 @@
+/* Mobile Theme CSS Documents 
+
+Author: DivTag Templates Ltd
+Theme: Drops
+Last Updated: April 11, 2015
+Version: 1.0
+Screen Sizes: 1024, 768, 736, 667, 600, 568, 414, 384, 375, 320
+
+----------------------------------------------------------------- */
+@media all and (max-width: 736px) {
+	/* Sticky Nav */
+	.site-navigation{position: absolute !important;}	
+}
+@media all and (max-width: 736px) {
+	/* Layout */
+	#content{padding: 15px !important;}
+	#main{padding: 25px 0 !important;}
+}
